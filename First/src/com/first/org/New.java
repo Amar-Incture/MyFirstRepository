@@ -6,6 +6,7 @@ public class New {
 		System.out.println("Hello World");
 		System.out.println("New commit");
 		System.out.println("Again a new Commit");
+		System.out.println("Latest commit");
 	}
 
 }
