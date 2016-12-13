@@ -27,10 +27,13 @@ public class CSC {
 	int count = 0;
 	for(WebElement ele : totalTemplates){
 		System.out.println(ele.getText());
-		if(ele.getText()=="/s"){
-			count+=1;
-		}
+		String s1 = ele.getText();
 		
+		if(s1.equals("")){
+		
+			count=count+1;
+		}
+			
 	}
 	System.out.println("Total number of templates with blank names ="+count);
 	driver.findElement(By.xpath("//*[@id='wrapper']/div[2]/div/div/div[2]/table/tbody/tr[2]/td[1]")).click();
