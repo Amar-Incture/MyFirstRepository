@@ -6,18 +6,26 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CSC {
-	@Test
+	
+	
+	@BeforeMethod
 	public void setUp() throws Exception{
 	System.setProperty("webdriver.chrome.driver","//Users//amar//Downloads//chromedriver");
 	WebDriver driver = new ChromeDriver();
 	driver.get("http://hrapps.britindia.com");
 	driver.manage().window().maximize();
-	Thread.sleep(15000);
-	driver.findElement(By.xpath("/html/body/div[1]/center/div/div[3]/form/div[1]/input")).sendKeys("balakrishnan@britindia.com");
-	driver.findElement(By.xpath("/html/body/div[1]/center/div/div[3]/form/div[2]/input")).sendKeys("123");
+	}
+	
+	@Test
+	public void elements(WebDriver driver) throws Exception{
+		
+		Thread.sleep(15000);
+		driver.findElement(By.xpath("/html/body/div[1]/center/div/div[3]/form/div[1]/input")).sendKeys("balakrishnan@britindia.com");
+		driver.findElement(By.xpath("/html/body/div[1]/center/div/div[3]/form/div[2]/input")).sendKeys("123");
 	driver.findElement(By.xpath("/html/body/div[1]/center/div/div[3]/form/div[3]/button")).click();
 	Thread.sleep(15000);
 	driver.findElement(By.xpath("//*[@id='suboptions']/li[2]/div/a")).click();
@@ -36,6 +44,12 @@ public class CSC {
 			
 	}
 	System.out.println("Total number of templates with blank names ="+count);
-	driver.findElement(By.xpath("//*[@id='wrapper']/div[2]/div/div/div[2]/table/tbody/tr[2]/td[1]")).click();
+	//driver.findElement(By.xpath("//*[@id='wrapper']/div[2]/div/div/div[2]/table/tbody/tr[2]/td[1]")).click();
 }
+	@Test
+	public void createNewTemplate(WebDriver driver){
+		driver.findElement(By.xpath("//*[@id='wrapper']/div[2]/div/div/div[1]/div[1]/button[1]")).click();;
+	}
 }
+
+
