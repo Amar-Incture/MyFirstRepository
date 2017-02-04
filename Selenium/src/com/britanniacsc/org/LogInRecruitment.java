@@ -45,6 +45,7 @@ public WebDriver driver;
 		Select requisitionSubTypeDropdown = new Select(driver.findElement(By.className("modal-content")).findElement(By.xpath("/html/body/div[1]/div/div/div[2]/form/div[2]/div/select")));
 		requisitionSubTypeDropdown.selectByIndex(1);
 		driver.findElement(By.className("modal-content")).findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div[2]/button[1]")).click();
+		driver.findElement(By.xpath("//*[@id='wrapper']/div[2]/div/div/div[2]/div/form/div[2]/div/div[1]/input")).sendKeys("Test Automation");
 	}
 	
 }
