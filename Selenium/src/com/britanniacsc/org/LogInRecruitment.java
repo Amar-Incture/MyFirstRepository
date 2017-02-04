@@ -21,7 +21,7 @@ public WebDriver driver;
 		driver = new ChromeDriver();
 		driver.get("dev.cherrywork.in:7009");
 		driver.manage().window().maximize();
-		Thread.sleep(5000);
+		Thread.sleep(15000);
 		driver.findElement(By.name("email")).sendKeys("balakrishnan@britindia.com");
 		driver.findElement(By.name("password")).sendKeys("cherry");
 		driver.findElement(By.xpath("/html/body/div[1]/center/div/div[3]/form/div[4]/button")).click();
@@ -29,7 +29,7 @@ public WebDriver driver;
 	
 	@Test
 	public void requisitionList() throws Exception{
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		driver.findElement(By.xpath("//*[@id='dropdownMenu1']")).click();
 		driver.findElement(By.xpath("//*[@id='page-container']/ng-include/nav/div[2]/div/table/tbody/tr/td[1]/ng-include/div/div/ul/li[1]/a")).click();
 		driver.findElement(By.xpath("//*[@id='rec']/li[1]/div/a")).click();
@@ -39,8 +39,12 @@ public WebDriver driver;
 	public void createRequisition() throws InterruptedException{
 		Thread.sleep(5000);
 		driver.findElement(By.xpath(".//*[@id='wrapper']/div[2]/div/div/div[1]/div[1]/button")).click();
-//		Select requisitionType = new Select(driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/form/div/div/select")));
-//		requisitionType.selectByVisibleText("New");
+		Thread.sleep(5000);
+		Select requisitionTypeDropdown = new Select(driver.findElement(By.className("modal-content")).findElement(By.xpath("/html/body/div[1]/div/div/div[2]/form/div/div/select")));
+		requisitionTypeDropdown.selectByIndex(1);
+		Select requisitionSubTypeDropdown = new Select(driver.findElement(By.className("modal-content")).findElement(By.xpath("/html/body/div[1]/div/div/div[2]/form/div[2]/div/select")));
+		requisitionSubTypeDropdown.selectByIndex(1);
+		driver.findElement(By.className("modal-content")).findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div[2]/button[1]")).click();
 	}
 	
 }
