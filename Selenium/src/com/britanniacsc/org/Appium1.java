@@ -44,6 +44,7 @@ public class Appium1 {
 			element.tap(1, 10000);
 			Thread.sleep(3000);
 			driver.findElement(By.id("com.whatsapp:id/control_btn")).click();
+			Thread.sleep(3000);
 		}
 
 	}
