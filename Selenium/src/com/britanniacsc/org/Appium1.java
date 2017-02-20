@@ -14,6 +14,7 @@ import io.appium.java_client.android.AndroidDriver;
 
 public class Appium1 {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws MalformedURLException, Exception {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.setCapability("deviceName","cb786a74");
@@ -38,6 +39,11 @@ public class Appium1 {
 			driver.findElement(By.xpath(".//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView[1]/android.view.View[1]")).click();
 			Thread.sleep(3000);
 			driver.findElement(By.id("com.whatsapp:id/send")).click();
+			Thread.sleep(3000);
+			MobileElement element = (MobileElement) driver.findElement(By.id("com.whatsapp:id/voice_note_btn"));
+			element.tap(1, 10000);
+			Thread.sleep(3000);
+			driver.findElement(By.id("com.whatsapp:id/control_btn")).click();
 		}
 
 	}
