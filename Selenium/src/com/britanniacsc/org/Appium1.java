@@ -27,11 +27,23 @@ public class Appium1 {
 			capabilities.setCapability("app",file.getAbsolutePath());
 			AppiumDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);	
 			driver.findElement(By.id("com.whatsapp:id/contact_row_container")).click();
-			driver.findElement(By.id("com.whatsapp:id/entry")).sendKeys("hello");
+			driver.findElement(By.id("com.whatsapp:id/menuitem_search")).click();
+			driver.findElement(By.id("com.whatsapp:id/search_src_text")).sendKeys("Sujith");
+			Thread.sleep(3000);
+			List<MobileElement> chatThreads = driver.findElements(By.className("android.widget.RelativeLayout"));
+			System.out.println(chatThreads.size());
+			
+			driver.findElement(By.id("com.whatsapp:id/contact_row_container")).click();
+			
+			driver.findElement(By.id("com.whatsapp:id/entry")).sendKeys("Le bevarsi");
 			driver.findElement(By.id("com.whatsapp:id/send")).click();
+	
 			List<MobileElement> group = driver.findElementsByClassName("android.widget.TextView");
 			System.out.println(group.size());
 			Thread.sleep(5000);
+			
+			Thread.sleep(3000);
+
 			driver.findElement(By.xpath(".//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.support.v7.widget.ai[1]/android.widget.TextView[1]")).click();
 			Thread.sleep(3000);
 			driver.findElement(By.id("com.whatsapp:id/pickfiletype_gallery")).click();
@@ -40,15 +52,14 @@ public class Appium1 {
 			Thread.sleep(3000);
 			driver.findElement(By.xpath(".//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView[1]/android.view.View[1]")).click();
 			Thread.sleep(3000);
-			driver.findElement(By.id("com.whatsapp:id/send")).click();
-			Thread.sleep(3000);
-			MobileElement element = (MobileElement) driver.findElement(By.id("com.whatsapp:id/voice_note_btn"));
+		driver.findElement(By.id("com.whatsapp:id/send")).click();
+		Thread.sleep(3000);
+		MobileElement element = (MobileElement) driver.findElement(By.id("com.whatsapp:id/voice_note_btn"));
 			element.tap(1, 10000);
-			Thread.sleep(3000);
-			Dimension size = driver.manage().window().getSize();
-			  System.out.println(size);
+			
 		}
 
 	}
+
 
 
