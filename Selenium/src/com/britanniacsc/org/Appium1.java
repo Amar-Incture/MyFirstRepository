@@ -6,10 +6,12 @@ import java.net.URL;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.SwipeElementDirection;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Appium1 {
@@ -43,8 +45,8 @@ public class Appium1 {
 			MobileElement element = (MobileElement) driver.findElement(By.id("com.whatsapp:id/voice_note_btn"));
 			element.tap(1, 10000);
 			Thread.sleep(3000);
-			driver.findElement(By.id("com.whatsapp:id/control_btn")).click();
-			Thread.sleep(3000);
+			Dimension size = driver.manage().window().getSize();
+			  System.out.println(size);
 		}
 
 	}
