@@ -15,8 +15,9 @@ public class ReadExcel {
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		
 		XSSFSheet sheet1 = wb.getSheetAt(0);
-		
-		System.out.println(sheet1.getRow(0).getCell(0).getStringCellValue());
-	}
 
+		System.out.println(sheet1.getRow(0).getCell(0).getStringCellValue());
+	
+		wb.close();
+}
 }
