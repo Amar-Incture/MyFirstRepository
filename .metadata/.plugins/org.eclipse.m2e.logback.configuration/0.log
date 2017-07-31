@@ -1112,3 +1112,20 @@
 2017-07-31 20:57:23,975 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinal1/src/main/resources
 2017-07-31 20:57:23,976 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-07-31 20:57:23,977 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinal1/src/test/resources
+2017-07-31 21:02:01,560 [Worker-155] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/amar/Documents/workspace/MavenFinalTest/pom.xml
+2017-07-31 21:02:01,921 [Worker-155] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MavenFinalTest:MavenFinalTest:0.0.1-SNAPSHOT @ /Users/amar/Documents/workspace/MavenFinalTest/pom.xml.
+2017-07-31 21:02:02,117 [Worker-155] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenFinalTest/src/main/java
+2017-07-31 21:02:02,146 [Worker-155] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenFinalTest/src/test/java
+2017-07-31 21:02:02,392 [Worker-155] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-07-31 21:02:03,492 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-31 21:02:03,493 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/main/resources
+2017-07-31 21:02:03,494 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-31 21:02:03,494 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/test/resources
+2017-07-31 21:02:25,952 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-31 21:02:25,952 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/main/resources
+2017-07-31 21:02:25,956 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-31 21:02:25,956 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/test/resources
+2017-07-31 21:03:00,906 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-31 21:03:00,906 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/main/resources
+2017-07-31 21:03:00,908 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-31 21:03:00,908 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/test/resources
