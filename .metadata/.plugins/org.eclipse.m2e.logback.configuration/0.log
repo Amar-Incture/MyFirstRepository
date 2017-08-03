@@ -1129,3 +1129,79 @@
 2017-07-31 21:03:00,906 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/main/resources
 2017-07-31 21:03:00,908 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-07-31 21:03:00,908 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/test/resources
+2017-08-02 11:57:51,868 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:51,926 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 11:57:51,929 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:51,929 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 11:57:54,105 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:54,105 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinal1/src/main/resources
+2017-08-02 11:57:54,107 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:54,108 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinal1/src/test/resources
+2017-08-02 11:57:54,157 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:54,158 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/main/resources
+2017-08-02 11:57:54,160 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:54,160 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/test/resources
+2017-08-02 11:57:54,203 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:54,204 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/NewTest/src/main/resources
+2017-08-02 11:57:54,205 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:54,206 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/NewTest/src/test/resources
+2017-08-02 11:57:55,325 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:55,325 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/NewTest/src/main/resources
+2017-08-02 11:57:55,327 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:57:55,327 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/NewTest/src/test/resources
+2017-08-02 11:58:39,391 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:58:39,394 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 11:58:39,396 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 11:58:39,396 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 12:35:01,021 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 12:35:01,022 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 12:35:01,023 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 12:35:01,024 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 12:48:21,350 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 12:48:21,351 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 12:48:21,352 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 12:48:21,353 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 12:48:30,483 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 12:48:30,484 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 12:48:30,486 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 12:48:30,486 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 13:20:18,078 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 13:20:18,100 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 13:20:18,104 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 13:20:18,105 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 13:21:48,414 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 13:21:48,420 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 13:21:48,423 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 13:21:48,423 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 13:24:04,662 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 13:24:04,662 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 13:24:04,665 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 13:24:04,665 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 16:23:34,962 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:34,994 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/main/resources
+2017-08-02 16:23:34,997 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:34,997 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/123Britannia/src/test/resources
+2017-08-02 16:23:36,180 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:36,180 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinal1/src/main/resources
+2017-08-02 16:23:36,182 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:36,183 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinal1/src/test/resources
+2017-08-02 16:23:36,249 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:36,250 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/main/resources
+2017-08-02 16:23:36,251 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:36,251 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/MavenFinalTest/src/test/resources
+2017-08-02 16:23:36,316 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:36,316 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/NewTest/src/main/resources
+2017-08-02 16:23:36,318 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:36,319 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/NewTest/src/test/resources
+2017-08-02 16:23:37,408 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:37,408 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/NewTest/src/main/resources
+2017-08-02 16:23:37,410 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-02 16:23:37,410 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Documents/workspace/NewTest/src/test/resources
+2017-08-03 18:19:31,310 [Worker-69] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.m.navapp:navapp-test:1.0-SNAPSHOT @ /Users/amar/Downloads/mavenproj/navapp-test/pom.xml.
+2017-08-03 18:19:33,160 [Worker-69] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /navapp-test/src/main/java
+2017-08-03 18:19:33,161 [Worker-69] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /navapp-test/src/test/java
+2017-08-03 18:19:33,589 [Worker-69] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2017-08-03 18:19:34,048 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-03 18:19:34,067 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Downloads/mavenproj/navapp-test/src/main/resources
+2017-08-03 18:19:34,070 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-03 18:19:34,071 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/amar/Downloads/mavenproj/navapp-test/src/test/resources
